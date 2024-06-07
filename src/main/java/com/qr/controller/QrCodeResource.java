@@ -44,7 +44,11 @@ public class QrCodeResource {
 	@Autowired
 	 private ObjetoService objetoService;
 
-	
+	@GetMapping(value="/")
+	public String mensaje(){
+		return "FUNCIONA";
+	}
+
 	// 1.QRS
 	//LISTAR QR'S
 	@GetMapping(value="listarQRs",produces=MediaType.APPLICATION_JSON_VALUE)
