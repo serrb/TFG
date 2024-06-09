@@ -80,7 +80,7 @@ public class QrCodeService { //MÉTODOS A INTERACTUAR CON LA BASE DE DATOS
 		
 		//2.Generamos QR con la URL asociada al ID
 		 Long qrId = id;
-		 String url = "https://es.wikipedia.org/wiki/"; // futura URL
+		 String url = "https://myinventoryweb.azurewebsites.net/"; // futura URL
 		 String url2= url.concat(qrId.toString());
 		 System.out.println("EL ID QUE LE HA ASOCIADO LA BASE DE DATOS ES "+ qrId);
 		
